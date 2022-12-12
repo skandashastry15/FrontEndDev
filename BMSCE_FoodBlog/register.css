@@ -107,7 +107,7 @@ body {
     transform: translate(-50%, -50%); 
     background: #191919;
     text-align: center;
-    background: url("image/image16_re.jpg") no-repeat;
+    background: url("image/image16_re_re.jpg") no-repeat;
 }
 
 p {
@@ -116,6 +116,7 @@ p {
     font-weight:bold;
     font-family:sans-serif;
     padding-right: 15%;
+    padding-top: 3%;
     font-size: 1.15rem;
     font-style: italic;
 }

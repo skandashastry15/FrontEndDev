@@ -1,0 +1,18 @@
+body {
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 5.625rem;
+    /* 1em = 16px = 100% */
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: #21130d;
+}
+
+.head {
+    padding-top: 2%;
+}

@@ -1,3 +1,7 @@
+body {
+    background-color: #f5e7e7;
+}
+
 .class2{
     text-align: center;
     position:static;
@@ -7,8 +11,7 @@
 }
 
 .nnn{
-    background-color: #ffffff;
-
+    background-color: #f5e7e7;
 } 
 
 .div1,.div2,.div3 {
