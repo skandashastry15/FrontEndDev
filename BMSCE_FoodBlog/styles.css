@@ -1,0 +1,52 @@
+body{
+    background-color: #fff;
+}
+.navbar-brand{
+    
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+       
+}
+
+.center{
+    text-align: center;
+    padding-left: 25%;
+    
+}
+
+.center1{
+    text-align: center;
+    padding-left: 1%; 
+}
+
+.class2{
+    text-align: center;
+    position:static;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+
+/* .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  } */
+
+.nnn{
+    background-color: #ffffff;
+}  
+
+.form-control {
+    border-color:moccasin;
+}
+
+.burger{
+    padding-left: 1.5rem;
+    
+    
+}

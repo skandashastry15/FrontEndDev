@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+<link rel="stylesheet" href="login.css">
+    <script type="text/javascript">
+        var password = document.getElementById('password');
+
+        function getPassword(){
+            var chars = "1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()"
+            var passwordLength = 12;
+            var password = "";
+
+            for(var i=0;i<passwordLength;i++){
+                var randomNumber = Math.floor(Math.random() * chars.length);//math.floor returns smallest no
+                password += chars.substring(randomNumber,randomNumber+1);
+                // let text = "Hello world!"; 
+                // let result = text.substring(1, 3); //result is el
+            }
+            document.getElementById('password').value = password;
+            
+        }
+        
+    </script>
+    <script type="text/javascript">
+        function validate()
+        {
+            var form = document.getElementById('form');
+            var email_validate = document.getElementById('email');
+            var password_validate = document.getElementById('password');
+            var password_span = document.getElementById('password-span');
+            var confirmpassword = document.getElementById('confirmpassword');
+            // var text = document.getElementById('text').nodeValue;
+            // var regx = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+            if(email_validate.value === '' || email_validate.value === null){
+                alert("no blank values allowed");
+                return false;   
+            }
+
+            if(password_validate.value === '' || password_validate.value === null){
+                // alert("no blank values allowed");
+                password_span.innerHTML = "no blank values allowed"
+                return false;   
+            }
+            
+            if(password_validate.value.length<=6){
+                // alert('password must be longer than 6 charcters');
+                password_span.innerHTML = "password must be longer than 6 charcters"
+                return false;  
+            }
+            if(password_validate.value.length>=20){
+                // alert('password must be less than 20 charcters');
+                password_span.innerHTML = "password must be less than 20 charcters"
+                return false;
+            }
+            if(!password_validate.value.match(/[0-9]/)){
+                password_span.innerHTML = "password have at least a number"
+                return false;
+            }
+            if(!password_validate.value.match(/[A-Z]/)){
+                password_span.innerHTML = "password have at least a uppercase letter"
+                return false;
+            }
+            if(!password_validate.value.match(/[!\@\#\$\%\^\&\*|(\)\[\]\{\}]/)){
+                password_span.innerHTML = "password have at least a special case letter"
+                return false;
+            }
+            if(password_validate.value !== confirmpassword.value){
+                password_span.innerHTML = "passwords not matching"
+                return false;
+            }
+            if(email_validate.value.match(pattern)){
+                form.classList.add("valid");
+                form.classList.remove("invalid");
+                text.innerHTML = "please enter valid address";
+                text.style.color = "#ff0000";
+                return false;
+            }
+            else{
+                true;
+            }
+        }
+
+    </script>
+   
+</head>
+<body>
+    
+    <div class="box">
+    <div id="error"></div>
+    <h1>Register</h1>
+
+    <form onsubmit=" return validate()" id="form" class="container" method="post" action="/" credentials: 'same-origin'>
+        <div class="form-group">
+        <label for="email">email</label>
+        <input class="form-control" id="email" name="email" type="email" size="20" required>
+        <br>
+        </div>
+
+        <div class="form-group">
+        <label for="password">password</label>
+        <input class="form-control" id="password" name="password" size="20" required>
+        <button class="btn" type="submit" onclick="getPassword()">Genereate password</button>
+        <br>
+        <span id ="password-span"></span>
+        </div>
+        
+        <div class="form-group">
+        <label>confirm password</label>
+        <input class="form-control" id="confirmpassword" name="confirmpassword" size="20">
+        </div> 
+          
+        <button type="submit">submit</button>
+        <a href="https://formsubmit.co/el/dutaye">To connect with me</a>
+    </form>
+    </div>
+<div class="form"></div>
+</body>
+</html>
+
+
+
+
+
