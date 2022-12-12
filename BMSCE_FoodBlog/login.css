@@ -19,28 +19,65 @@ body {
     transform: translate(-50%, -50%); 
     background: url("image/image20_re.jpg") no-repeat ;
     text-align: center;
+    padding: 10px 12px;
+    z-index: -1;
     
 }
-
-
-/* .box input[type = "email"],.box input[type = "password"],.box input[type = "confirmpassword"] {
-    border: 0;
-    background: none;
-    padding-left: 11%;
-    display:block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
-    width: 200px;
-    padding: 14px 10px;
+.form-group{
+    padding-top: 80px;
+    padding-right: 170px;
+    border: none;
+    background: transparent;
     outline: none;
+}
+h1{
+    padding-left: 560px;
+    padding-top: 50px;
+    z-index: 1;
+    color: #fff;
+    font-style:inherit;
+}
+.reg-but{
+    text-align: center;
+    padding-right: 20px;
+
+}
+button{
+    background-color: #fff;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    border-width: 0.9px;
+}
+button:hover{
+    background-color: black;
     color: white;
-    border-radius: 40px;;
-    transition: 0.25s;
-    stop-opacity: inherit;
-} */
-
-
-
-
-
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.form-group2{
+    padding-right: 170px;
+}
+.log input[type="email"],input[id="password"],input[id="confirmpassword"]{
+    border: none;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.password-span{
+    color: #F8F988;
+    font-family: 'Lobster', cursive;
+font-family: 'Rubik Vinyl', cursive;
+font-family: 'Shadows Into Light', cursive;
+}
+.a{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}

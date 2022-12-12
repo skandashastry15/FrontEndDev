@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="x-icon" href="image/logo4.jpeg">
     <title>Register Page</title>
    
@@ -51,6 +52,7 @@
             if(password_validate.value.length<=6){
                 // alert('password must be longer than 6 charcters');
                 password_span.innerHTML = "password must be longer than 6 charcters"
+                // password_span.style.color = '#F8F988'
                 return false;  
             }
             if(password_validate.value.length>=20){
@@ -91,39 +93,31 @@
 </head>
 <body>
     
-    <div class="box">
-    <div id="error"></div>
+    <div class="log">
     <h1>Register</h1>
-
-    <form onsubmit=" return validate()" id="form" class="container" method="post" action="/" credentials: 'same-origin'>
+    <form class="box" onsubmit=" return validate()" id="form" class="container" method="post" action="/" credentials: 'same-origin'>
         <div class="form-group">
-        <label for="email">email</label>
-        <input class="form-control" id="email" name="email" type="email" size="20" required>
-        <br>
+        <input class="form-control" id="email" name="email" type="email" size="20" placeholder="email" required>
+        <br><br>
         </div>
 
-        <div class="form-group">
-        <label for="password">password</label>
-        <input class="form-control" id="password" name="password" size="20" required>
+        <div class="form-group1">
+
+        <input class="form-control" id="password" name="password" size="20" placeholder="password" required>
         <button class="btn" type="submit" onclick="getPassword()">Genereate password</button>
-        <br>
-        <span id ="password-span"></span>
+        <br><br>
+        <span class="password-span" id ="password-span"></span>
         </div>
         
-        <div class="form-group">
-        <label>confirm password</label>
-        <input class="form-control" id="confirmpassword" name="confirmpassword" size="20">
+        <div class="form-group2">
+
+        <input class="form-control" id="confirmpassword" name="confirmpassword" placeholder="confirmpassword" size="20">
         </div> 
-          
-        <button type="submit">submit</button>
+          <br>
+        <button class="reg-but" type="submit">submit</button>
         <a href="https://formsubmit.co/el/dutaye">To connect with me</a>
     </form>
     </div>
-<div class="form"></div>
+    
 </body>
 </html>
-
-
-
-
-
