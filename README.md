@@ -1,6 +1,5 @@
 # FrontEndDev
-Food Blog Website
-This folder consists of the following : 
+This Food Blog Website folder consists of the following : 
 
 1. Home Page
 2. Intro Page
