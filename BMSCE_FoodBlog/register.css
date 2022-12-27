@@ -124,10 +124,12 @@ p {
 .bono {
     padding: 7%;
 }
+
 .class2{
     text-align: center;
-    position:static;
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 15%; 
+    position:relative;
+    padding-left: 10%; 
+    padding-right: 10% ;
+    padding-top: 2%;
+    /* display: flex; */
 }
