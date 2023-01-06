@@ -1,0 +1,26 @@
+body {
+    background-color: #f5e7e7;
+}
+
+.class2{
+    text-align: center;
+    position:relative;
+    padding-left: 10%; 
+    padding-right: 10% ;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.nnn{
+    background-color: #f5e7e7;
+} 
+
+.div1,.div2,.div3 {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.logo {
+    padding-top: 2%;
+    justify-content: left;
+}
