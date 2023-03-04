@@ -1,22 +1,30 @@
-html {
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
-body {
-    align-items: center;    
-}
-.div{
+
+.div {
     display: inline-block;
     padding-left: 100px;
 }
-.jax{
+
+.jax {
     position: relative;
     left: 30px;
 }
-.heading{
+
+.heading {
     font-family: 'Noto Serif NP Hmong', serif;
 }
-.checked{
+
+.checked {
 
     display: inline-flex;
     color: gold;
@@ -24,7 +32,8 @@ body {
     position: relative;
     right: 40px;
 }
-button{
+
+button {
     background-color: #fff;
     font-size: medium;
     padding-left: 10px;
@@ -35,96 +44,359 @@ button{
     position: relative;
     left: 25px;
 
-  }
-  button:hover{
+}
+
+button:hover {
     background-color: black;
     color: white;
-    
 
-  }
-  .afiliate{
+
+}
+
+.afiliate {
     color: gray;
     position: relative;
     right: 30px;
-  }
-.headh3{
+}
+
+.headh3 {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     right: 30px;
 }
-.img-ramen{
+
+.img-ramen {
     position: relative;
     left: 20px;
 }
-.div2{
+
+.div2 {
     font-family: 'Rajdhani', sans-serif;
     line-height: 10px;
     text-align: left;
     padding-left: 3%;
-    padding-right: 10%;
+    padding-right: 30%;
 }
-.recipe{
+
+.recipe {
     /* background: linear-gradient(90deg, #FFC0CB 50%,); */
     /* background-color: black; */
     background-size: 100px auto;
     color: white;
     size: 100px;
-    
+
 }
-.jeff{
+
+.jeff {
     position: relative;
     left: 130px;
     bottom: 400px;
 }
-.jeff-div{
+
+.jeff-div {
     position: relative;
-    left:1050px;
-    bottom:430px;
+    left: 1050px;
+    bottom: 430px;
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
 }
-.jeff-p{
+
+.jeff-p {
     position: relative;
     right: 140px;
     /* font-family: 'IM Fell Double Pica', serif; */
     font-family: 'Work Sans', sans-serif;
 }
-.image-con{
+
+.image-con {
     position: relative;
     top: auto;
     padding-left: 2%;
+    font-size: 15px;
     /* bottom: 180px;
     left:20px; */
 }
 
-#section1{
-    display: table; /* keep the background color wrapped tight */
-     /*margin: 0px auto 0px 2%;keep the table centered*/
-    margin: 2%;
-    padding: 5px;
-    font-size:20px;
-    text-align: center;
-    background-color:black;
-    color:#ffffff;
-}
-
-/* .classss {
-    padding-top: 20px;
+/* #section1{
+    justify-content: center;
+    text-align: left;
+    background-color: black;
     padding-left: 2%;
-    padding-bottom: 2%;
+    padding-right: 10%;
+} */
+
+.classss {
+    padding-top: 20px;
+    /* padding-bottom: 100px; 
+    padding-bottom: 10%;*/
     background-color: black;
     text-align: center;
-} */
+    width: 846px;
+    height: 330px;
+    position: relative;
+    /* bottom: 1300px; */
+    /* left: 38px; */
+}
+
+.recipe-h3 {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    position: relative;
+    right: 300px;
+}
 
 /* .para {
     background-color: black;
 } */
+.recipe-img {
+    /* float: right; */
+    position: relative;
+    left: 280px;
+    bottom: 100px;
+}
 
-/* .head{
-    display: table;  keep the background color wrapped tight 
-    margin: 0px auto 0px auto; keep the table centered 
-    padding:5px;
-    font-size:20px;
-    background-color:green;
-    color:#ffffff;
+.yield-serv {
+
+    position: relative;
+    right: 300px;
+    top: 20px;
+}
+
+.yield-prep {
+    position: relative;
+    right: 100px;
+    bottom: 8px;
+}
+
+.yield-cook {
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+}
+
+.yield-total {
+    position: relative;
+    right: 300px;
+    bottom: 18px;
+}
+
+.recipe-para {
+    position: relative;
+    bottom: 200px;
+    right: 130px;
+}
+
+.jakka {
+    position: relative;
+    bottom: 190px;
+    right: 200px;
+    right: 300px;
+
+}
+
+/* .recipe-para {
+    text-align: left;
 } */
+.jakka-p {
+    color: gray;
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+
+.vl {
+    padding: auto;
+    border-left: 1px solid black;
+    height: 1200px;
+    position: relative;
+    left: 38px;
+}
+
+.v2 {
+    border-left: 0.5px solid black;
+    height: 1200px;
+    position: relative;
+    bottom: 1200px;
+    left: 884px;
+}
+
+.quick-button1 {
+    display: inline-block;
+    padding-left: 170px;
+    font-weight: 500;
+}
+
+.quick-button1 {
+    background-color: #fff;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* border-radius: 10px;
+    border-width: 0.9px; */
+}
+
+
+.quick-button2 {
+    position: relative;
+    left: 150px;
+}
+
+.quick-button1:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.v1-h3 {
+    position: relative;
+    left: 25px;
+}
+
+ul {
+    position: relative;
+    left: 20px;
+}
+
+hr {
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    left: 15px;
+
+}
+
+.ol-img {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    top: 25px;
+}
+
+.ol-para {
+    position: relative;
+    left: 25px;
+    bottom: 4px;
+    line-height: 10px;
+}
+
+.cla {
+    padding-top: 20px;
+    /* padding-bottom: 100px;
+    padding-left: 1%;
+    padding-bottom: 10%; */
+    background-color: black;
+    text-align: center;
+    height: 180px;
+    width: 847px;
+    position: relative;
+    bottom: 1300px;
+    left: 38px;
+}
+
+.cla-img {
+    position: relative;
+    right: 320px;
+}
+
+.cla-h3 {
+    color: #fff;
+    position: relative;
+    right: 80px;
+    bottom: 80px;
+}
+
+.cla-h5 {
+    color: #fff;
+    position: relative;
+    bottom: 80px;
+    left: 60px;
+}
+
+/* @media print {
+    .v1-h3 {
+        display: grid;
+    }
+}
+h1 {
+    color: #f6f6;
+} */
+.quick-button {
+    position: relative;
+    bottom: 70px;
+    right: 100px;
+}
+
+.quick-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.fa-sharp {
+    color: white;
+}
+
+.last-img {
+    position: relative;
+    left: 20px;
+    bottom: 1200px;
+}
+
+.hr1 {
+    width: 1100px;
+    border-top: 3px solid #EEEEEE;
+}
+
+.cla2 {
+    padding-top: 20px;
+    /* padding-bottom: 100px;
+    padding-left: 1%;
+    padding-bottom: 10%; */
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    width: 1217px;
+    position: relative;
+    bottom: 1150px;
+    left: 20px;
+}
+
+.cla2-h3 {
+    color: #fff;
+    position: relative;
+    right: 190px;
+    top: 20px;
+}
+
+.email {
+    position: relative;
+    left: 220px;
+    bottom: 20px;
+
+}
+
+.cla2-a {
+    position: relative;
+    left: 500px;
+    bottom: 43px;
+    color: #fff;
+}
+
+.cla2-a:hover {
+    color: gray;
+    text-decoration: #EEEEEE;
+
+}
+
+footer {
+    position: relative;
+    bottom: 1000px;
+}
+
+.class2{
+    text-align: center;
+    position:relative;
+    padding-left: 10%; 
+    padding-right: 10% ;
+    padding-top: 2%;
+    /* display: flex; */
+}

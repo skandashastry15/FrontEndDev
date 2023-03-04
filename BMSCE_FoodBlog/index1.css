@@ -106,3 +106,12 @@ h6{
     font-size: 1rem;
   }
 }
+
+.class2{
+    text-align: center;
+    position:relative;
+    padding-left: 10%; 
+    padding-right: 10% ;
+    padding-top: 2%;
+    /* display: flex; */
+}

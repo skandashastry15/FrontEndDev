@@ -1,9 +1,80 @@
-* {
-    padding-top: 2%;
-    padding-left: 4%;
+*{
+    justify-content: center;
 }
 
-/* .c_box {
-    justify-content: center;
+body{
+    padding: 1.5%;
+}
+
+.class2{
     text-align: center;
-} */
+    position:relative;
+    padding-left: 10%; 
+    padding-right: 10% ;
+    padding-top: 2%;
+    /* display: flex; */
+}
+
+.classs{
+    align-items: center;
+    text-align: center;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+.comment-form{
+    /* padding-top: 2%; */
+    padding-bottom: 2%;
+    border: 2px solid black;
+    border-width: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    /* font-family: 'East Sea Dokdo', cursive; */
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 4.5rem;
+    padding: 2%;
+}
+
+#aaa{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 2%;
+}
+
+.submit {
+    background: #1c0c47;
+    justify-content: center;
+    border-radius: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px auto 20px;
+    margin-bottom: 0px;
+    text-decoration:none;
+}
+
+.submit:hover{
+    background: #4c3df1;
+}
+
+h2,
+h3{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h3,
+#comments{
+    text-align: left;
+    justify-content: left;
+    /* padding-right: 50%; */
+}
+
+.asdf{
+    text-align: left;
+    justify-content: left; 
+}

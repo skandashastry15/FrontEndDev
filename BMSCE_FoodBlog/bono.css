@@ -84,3 +84,7 @@ h1 {
     margin: 10px auto 20px;
     text-decoration:none;
 }
+
+.btn-1:hover{
+    background: #4c3df1;
+}
